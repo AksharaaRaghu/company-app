@@ -1,0 +1,51 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E8F5E9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#090909"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="ADD EMPLOYEE"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/addbutt"
+        android:background="#388E3C"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="SEARCH EMPLOYEE"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/searchbutt"
+        android:background="#388E3C"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="LOG OUT"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/logoutbutt"
+        android:background="#388E3C"
+        />
+
+</LinearLayout>
